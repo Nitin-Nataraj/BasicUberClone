@@ -56,7 +56,7 @@ const Search = () => {
     
 }
 
-export default search
+export default Search
 
 const Wrapper = tw.div`
   bg-gray-200 h-screen
