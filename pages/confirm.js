@@ -6,7 +6,7 @@ import Link from 'next/link'
 import mapboxgl, { accessToken } from 'mapbox-gl'
 import { useRouter } from 'next/router'
 
-const confirm = () => {
+const Confirm = () => {
     const router = useRouter()
     const {pickup, dropoff} = router.query
 
