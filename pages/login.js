@@ -30,11 +30,11 @@ const Login = () => {
 export default Login
 
 const Wrapper = tw.div`
-    flex flex-col bg-gray-200 h-screen w-screen p-4
+    flex flex-col bg-gray-200 h-screen w-screen p-4 overflow-y-hidden
 `
 
 const UberLogo = tw.img`
-    h-6 w-auto object-contain self-start my-4    
+    h-6 w-auto object-contain self-start my-4   
 `
 
 const Title = tw.div`
@@ -42,7 +42,7 @@ const Title = tw.div`
 `
 
 const DriveImage = tw.img`
-    object-contain w-full
+    object-contain w-full overflow-y-scroll
 `
 
 const SignInButton = tw.button`
